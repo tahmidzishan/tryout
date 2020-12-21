@@ -1,37 +1,114 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hablu Home Page</title>
-	<link rel="stylesheet" type="text/css" href="bootstrap.css">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width = device-width, initial-scale = 1">
+<title>Facebook: Log in or sign up.</title>
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="bootstrap.css">
+<style type="text/css">
+.cmail{
+width:90%;
+height:135px;
+border-radius:15px;
+margin-top:20px;
+margin-bottom:20px;
+padding-left:50px;
+background-color:rgb(240,240,240);
+font-size:40px;
+}
+.cpass{
+width:90%;
+height:135px;
+border-radius:15px;
+background-color:rgb(240,240,240);
+font-size:40px;
+padding-left:50px;
+}
+.fb{
+margin-top:20px;
+margin-bottom:25px;
+height:120px;
+}
+.sgstn{
+padding-bottom:20px;
+padding-top:30px;
+padding-left:120px;
+padding-right:120px;
+font-size:40px;
+color:rgb(100,100,230);
+background-color:rgb(256,256,200);;
+}
+.field{
+background-color:rgb(245,245,256);
+}
+.login{
+width:90%;
+height:135px;
+border-radius:15px;
+background-color:rgb(24 119 242);
+font-size:60px;
+color:white;
+margin-top:30px;
+margin-bottom:20px;
+}
+.newac{
+width:50%;
+height:100px;
+border-radius:15px;
+font-size:40px;
+color:white;
+background-color:rgb(100,180,100);
+margin-top:20px;
+}
+.lang1{
+float:left;
+width:50%;
+height:300px;
+font-size:40px;
+margin-top:100px;
+}
+.lang2{
+float:right;
+width:50%;
+height:300px;
+margin-top:100px;
+font-size:40px;
+}
+</style>
 </head>
-<body>
+<body class="field">
+<div class="sgstn">
+Get Facebook for Android and browse faster.
+</div>
 
-	<div class="head">
-		<font size="30px" face="times new roman" style="float: left; margin-left: 20px">Hablu</font>
-		<form >
-			<div class="row">
-			    <div class="col">
-			      <input type="text" class="form-control" id="email" placeholder="Username" name="email" style="margin-top: 16px">
-			    </div>
-			    <div class="col">
-			      <input type="password" class="form-control" placeholder="Password" name="pswd" style="margin-top: 16px">
-			    </div>
-			    <div class="col">
-			      <input type="button" class="btn btn-success" placeholder="Password" name="lgin" style="margin-top: 16px" value="Log in">
-			    </div>
-			    
-			</div>
-			<div class="col">
-			      <input type="button" class="btn btn-link" placeholder="Password" name="gtacc" style="margin-top: 16px" value="Don't have an account? Get one now!">
-			    </div>
-		</form>
-	</div>
+<center><img src="fbimage.svg" class="fb"></center>
+<center><input type="text" placeholder="Mobile number or email " class="cmail"></center>
+<center><input type="password" placeholder="Password" class="cpass"></center>
+<b><center><input type="submit" value="Log in" class="login"></center></b>
+<center><font size="10px">_____________ or _____________</font></center>
 
-<p>Hablu is the leading ICT company of the world. Hablu Inc. let's you be great in tachnologies even if you are a "Hablu".</p>
+
+<center><b><input type="button" value="Create New Account" class="newac"></b></center>
+<center><input type="button" class="btn btn-link" value="Forgotten password?" style="font-size:40px;margin-top:30px;color:rgb(100,100,250)"></center>
+
+<div class="lang1">
+
+<center><font style="color:rgb(100,100,100);">English (UK)</font><br></center>
+<center><input type="button" value="অসমীয়া" class="btn btn-link" style="font-size:40px"><br></center>
+<center><input type="button" value="Bahasa Indonesia" class="btn btn-link" style="font-size:40px"><br></center>
+<center><input type="button" value="Português (Brasil)" class="btn btn-link" style="font-size:40px"><br></center>
+<br>
+</div>
+
+<div class="lang2">
+
+<center><input type="button" value="বাংলা" class="btn btn-link" style="font-size:40px"><br></center>
+<center><input type="button" value="हिन्दी" class="btn btn-link" style="font-size:40px"><br></center>
+<center><input type="button" value="Español" class="btn btn-link" style="font-size:40px"><br></center>
+<center><input type="button" value="+" class="btn btn-link" style="border:solid background-color:rgb(100,100,256);; padding-top:0px; padding-bottom:0px; border-radius:10px;font-size:40px;"><br></center>
+<br>
+</div>
+
+
+<center style="margin-bottom:30px;margin-top:90px;color:rgb(110,110,110)"><font style="font-size:40px;">Hablu Inc.</font></center>
 </body>
-<script type="">
-
-</script>
 </html>
